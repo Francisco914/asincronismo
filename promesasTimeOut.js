@@ -10,6 +10,7 @@ function promesa (name){
     });
 }
 
+//Aqui se realiza el llamado en cadena de la funcion promesa con then
 promesa('Person 1')
 .then((name)=>{
     console.log(name)
